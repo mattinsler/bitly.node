@@ -1,16 +1,18 @@
 {
-  "name": "facebook.node",
-  "description": "Facebook API Client",
+  "name": "bitly.node",
+  "description": "Bitly API Client",
   "author": "Matt Insler <matt.insler@gmail.com> (www.mattinsler.com)",
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mattinsler/facebook.node.git"
+    "url": "git://github.com/mattinsler/bitly.node.git"
   },
   "main": "index",
   "engines": {
     "node": "*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "rest.node": "0.1.0"
+  },
   "devDependencies": {}
 }
